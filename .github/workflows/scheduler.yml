@@ -2,9 +2,9 @@ name: Petclinic + Scheduler Experiment
 
 on:
   push:
-    branches: [ main ]
+    branches: [ experiment ]
   pull_request:
-    branches: [ main ]
+    branches: [ experiment ]
 
 jobs:
   experiment:
