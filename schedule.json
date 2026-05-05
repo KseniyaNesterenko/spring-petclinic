@@ -1,59 +1,15 @@
 {
-  "testNames": [
-    "validateWithInvalidBirthDate",
-    "checkNonInternationalizedStrings",
-    "processUpdateOwnerFormHasErrors",
-    "initCreationForm",
-    "processFindFormByLastName",
-    "initUpdateOwnerForm",
-    "processUpdateOwnerFormUnchangedSuccess",
-    "shouldParse",
-    "initUpdateForm",
-    "processUpdateFormWithInvalidBirthDate",
-    "shouldThrowParseException",
-    "processNewVisitFormSuccess",
-    "processCreationFormWithDuplicateName",
-    "shouldFindOwnersByLastName",
-    "processUpdateOwnerFormSuccess",
-    "shouldFindAllPetTypes",
-    "shouldNotValidateWhenFirstNameEmpty",
-    "serialization",
-    "validate",
-    "shouldAddNewVisitForPet",
-    "validateWithInvalidPetName",
-    "findAll",
-    "processCreationFormHasErrors",
-    "triggerException",
-    "validateWithInvalidPetType",
-    "showVetListHtml",
-    "ownerList",
-    "processFindFormNoOwnersFound",
-    "processNewVisitFormHasErrors",
-    "processUpdateFormSuccess",
-    "shouldFindVisitsByPetId",
-    "shouldFindSingleOwnerWithPet",
-    "showResourcesVetList",
-    "ownerDetails",
-    "checkI18nPropertyFilesAreInSync",
-    "shouldFindVets",
-    "testPrint",
-    "processUpdateOwnerFormWithIdMismatch",
-    "triggerExceptionJson",
-    "processCreationFormWithBlankName",
-    "initFindForm",
-    "processCreationFormSuccess",
-    "processFindFormSuccess",
-    "shouldInsertPetIntoDatabaseAndGenerateId",
-    "shouldUpdateOwner",
-    "triggerExceptionHtml",
-    "processCreationFormWithMissingPetType",
-    "shouldInsertOwner",
-    "processUpdateFormWithBlankName",
-    "processCreationFormWithInvalidBirthDate",
-    "showOwner",
-    "initNewVisitForm",
-    "shouldUpdatePetName"
-  ],
-  "containerCount": 4,
-  "runId": "experiment-real-1"
+  "containers" : [ {
+    "tests" : [ "showVetListHtml", "initNewVisitForm", "processFindFormByLastName", "checkI18nPropertyFilesAreInSync", "validateWithInvalidPetName" ],
+    "total_time" : 0.28800000000000003
+  }, {
+    "tests" : [ "showResourcesVetList", "triggerExceptionHtml", "findAll", "triggerExceptionJson", "initCreationForm", "processFindFormNoOwnersFound", "processUpdateFormWithBlankName", "processCreationFormWithBlankName", "processUpdateFormSuccess", "processUpdateOwnerFormSuccess", "shouldFindVisitsByPetId", "processCreationFormSuccess", "processNewVisitFormSuccess", "shouldFindAllPetTypes", "validateWithInvalidPetType" ],
+    "total_time" : 0.28850000000000003
+  }, {
+    "tests" : [ "ownerList", "ownerDetails", "serialization", "processNewVisitFormHasErrors", "shouldFindVets", "checkNonInternationalizedStrings", "processUpdateFormWithInvalidBirthDate", "shouldInsertPetIntoDatabaseAndGenerateId", "initUpdateForm", "processCreationFormWithInvalidBirthDate", "processCreationFormHasErrors", "shouldInsertOwner", "shouldUpdatePetName", "triggerException", "shouldFindSingleOwnerWithPet", "validateWithInvalidBirthDate", "shouldParse", "testPrint" ],
+    "total_time" : 0.28770000000000007
+  }, {
+    "tests" : [ "processUpdateOwnerFormUnchangedSuccess", "showOwner", "shouldFindOwnersByLastName", "processUpdateOwnerFormHasErrors", "shouldAddNewVisitForPet", "processFindFormSuccess", "validate", "processCreationFormWithMissingPetType", "processCreationFormWithDuplicateName", "initUpdateOwnerForm", "shouldNotValidateWhenFirstNameEmpty", "initFindForm", "processUpdateOwnerFormWithIdMismatch", "shouldThrowParseException", "shouldUpdateOwner" ],
+    "total_time" : 0.28800000000000003
+  } ]
 }
