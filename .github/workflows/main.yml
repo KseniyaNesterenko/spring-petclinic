@@ -26,4 +26,5 @@ jobs:
 
       - name: Run Balanced Tests
         run: |
+          chmod +x run-tests.sh
           ./run-tests.sh schedule.json ${{ matrix.node_index }}
