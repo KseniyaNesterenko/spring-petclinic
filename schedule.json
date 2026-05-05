@@ -1,72 +1,72 @@
 {
   "containers" : [ {
     "tests" : [
+      "PetValidatorTests#validateWithInvalidBirthDate",
+      "OwnerControllerTests#processFindFormByLastName",
+      "OwnerControllerTests#initUpdateForm",
+      "OwnerControllerTests#processCreationFormWithDuplicateName",
+      "OwnerControllerTests#shouldNotValidateWhenFirstNameEmpty",
+      "PetValidatorTests#validateWithInvalidPetName",
+      "PetValidatorTests#validateWithInvalidPetType",
+      "VisitControllerTests#processNewVisitFormHasErrors",
+      "VetControllerTests#showResourcesVetList",
+      "SystemTests#testPrint",
+      "OwnerControllerTests#initFindForm",
+      "OwnerRepositoryTests#shouldUpdateOwner",
+      "OwnerControllerTests#processUpdateFormWithBlankName",
+      "PetRepositoryTests#shouldUpdatePetName"
+    ],
+    "total_time" : 0.2
+  }, {
+    "tests" : [
+      "I18nTests#checkNonInternationalizedStrings",
+      "OwnerControllerTests#initUpdateOwnerForm",
+      "OwnerControllerTests#processUpdateFormWithInvalidBirthDate",
+      "OwnerRepositoryTests#shouldFindOwnersByLastName",
+      "PetRepositoryTests#serialization",
+      "OwnerRepositoryTests#findAll",
       "VetControllerTests#showVetListHtml",
       "OwnerControllerTests#processUpdateFormSuccess",
-      "PetRepositoryTests#shouldFindVisitsByPetId",
+      "OwnerControllerTests#ownerDetails",
       "OwnerControllerTests#processUpdateOwnerFormWithIdMismatch",
-      "PetRepositoryTests#shouldUpdatePetName",
-      "OwnerRepositoryTests#shouldUpdateOwner",
-      "PetValidatorTests#validateWithInvalidPetType"
+      "OwnerControllerTests#processCreationFormSuccess",
+      "CrashControllerTests#triggerExceptionHtml",
+      "OwnerControllerTests#processCreationFormWithInvalidBirthDate"
     ],
-    "total_time" : 0.302
+    "total_time" : 0.611
   }, {
     "tests" : [
-      "VetControllerTests#showResourcesVetList",
-      "OwnerRepositoryTests#findAll",
-      "CrashControllerTests#triggerExceptionHtml",
+      "OwnerControllerTests#processUpdateOwnerFormHasErrors",
+      "OwnerControllerTests#processUpdateOwnerFormUnchangedSuccess",
+      "PetRepositoryTests#shouldThrowParseException",
+      "OwnerControllerTests#processUpdateOwnerFormSuccess",
+      "PetValidatorTests#validate",
+      "OwnerControllerTests#processCreationFormHasErrors",
+      "OwnerControllerTests#ownerList",
+      "PetRepositoryTests#shouldFindVisitsByPetId",
+      "I18nTests#checkI18nPropertyFilesAreInSync",
       "CrashControllerTests#triggerExceptionJson",
+      "OwnerControllerTests#processFindFormSuccess",
+      "OwnerControllerTests#processCreationFormWithMissingPetType",
+      "OwnerControllerTests#showOwner"
+    ],
+    "total_time" : 0.294
+  }, {
+    "tests" : [
       "OwnerControllerTests#initCreationForm",
-      "OwnerControllerTests#processFindFormNoOwnersFound",
-      "OwnerControllerTests#processUpdateFormWithBlankName",
-      "OwnerControllerTests#processCreationFormWithBlankName",
-      "OwnerControllerTests#shouldNotValidateWhenFirstNameEmpty",
-      "OwnerRepositoryTests#shouldInsertOwner",
-      "OwnerControllerTests#processCreationFormSuccess",
+      "PetRepositoryTests#shouldParse",
       "VisitControllerTests#processNewVisitFormSuccess",
       "PetRepositoryTests#shouldFindAllPetTypes",
-      "PetValidatorTests#validateWithInvalidBirthDate",
-      "PetRepositoryTests#shouldParse",
-      "SystemTests#testPrint"
-    ],
-    "total_time" : 0.301
-  }, {
-    "tests" : [
-      "OwnerControllerTests#ownerDetails",
-      "OwnerControllerTests#showOwner",
-      "PetRepositoryTests#serialization",
-      "VisitControllerTests#processNewVisitFormHasErrors",
       "OwnerRepositoryTests#shouldAddNewVisitForPet",
-      "OwnerControllerTests#processFindFormSuccess",
-      "PetValidatorTests#validate",
-      "PetRepositoryTests#shouldInsertPetIntoDatabaseAndGenerateId",
-      "OwnerControllerTests#initUpdateForm",
-      "OwnerControllerTests#processCreationFormWithInvalidBirthDate",
-      "OwnerControllerTests#processCreationFormHasErrors",
-      "VisitControllerTests#initNewVisitForm",
-      "PetRepositoryTests#shouldThrowParseException",
-      "I18nTests#checkI18nPropertyFilesAreInSync",
-      "PetValidatorTests#validateWithInvalidPetName"
-    ],
-    "total_time" : 0.301
-  }, {
-    "tests" : [
-      "OwnerControllerTests#ownerList",
-      "OwnerControllerTests#processUpdateOwnerFormUnchangedSuccess",
-      "OwnerRepositoryTests#shouldFindOwnersByLastName",
-      "OwnerControllerTests#processUpdateOwnerFormHasErrors",
-      "VetRepositoryTests#shouldFindVets",
-      "I18nTests#checkNonInternationalizedStrings",
-      "OwnerControllerTests#processUpdateFormWithInvalidBirthDate",
-      "OwnerControllerTests#processCreationFormWithMissingPetType",
-      "OwnerControllerTests#processCreationFormWithDuplicateName",
-      "OwnerControllerTests#initUpdateOwnerForm",
-      "OwnerControllerTests#processUpdateOwnerFormSuccess",
-      "OwnerControllerTests#initFindForm",
-      "OwnerControllerTests#processFindFormByLastName",
       "CrashControllerTests#triggerException",
-      "OwnerRepositoryTests#shouldFindSingleOwnerWithPet"
+      "OwnerControllerTests#processFindFormNoOwnersFound",
+      "OwnerRepositoryTests#shouldFindSingleOwnerWithPet",
+      "VetRepositoryTests#shouldFindVets",
+      "OwnerControllerTests#processCreationFormWithBlankName",
+      "PetRepositoryTests#shouldInsertPetIntoDatabaseAndGenerateId",
+      "OwnerRepositoryTests#shouldInsertOwner",
+      "VisitControllerTests#initNewVisitForm"
     ],
-    "total_time" : 0.302
+    "total_time" : 0.102
   } ]
 }
