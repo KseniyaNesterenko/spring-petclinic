@@ -2,40 +2,26 @@
   "containers": [
     {
       "tests": [
-        "VisitControllerTests#initNewVisitForm",
-        "VisitControllerTests#processNewVisitFormSuccess",
-        "VisitControllerTests#processNewVisitFormHasErrors",
-        "PetControllerTests#initUpdateForm",
-        "PetControllerTests#processUpdateFormSuccess",
-        "PetControllerTests#processUpdateFormWithInvalidBirthDate",
-        "PetControllerTests#processUpdateFormWithBlankName",
-        "PetControllerTests#processCreationFormWithDuplicateName",
-        "PetControllerTests#processCreationFormWithMissingPetType",
-        "PetControllerTests#processCreationFormWithInvalidBirthDate",
-        "PetControllerTests#processCreationFormWithBlankName",
         "VetControllerTests#showVetListHtml",
         "VetControllerTests#showResourcesVetList",
         "VetRepositoryTests#shouldFindVets",
+        "OwnerRepositoryTests#shouldFindOwnersByLastName",
+        "OwnerRepositoryTests#shouldFindSingleOwnerWithPet",
+        "OwnerRepositoryTests#shouldInsertOwner",
+        "OwnerRepositoryTests#shouldUpdateOwner",
+        "VisitRepositoryTests#shouldAddNewVisitForPet",
+        "VisitRepositoryTests#shouldFindVisitsByPetId",
         "CrashControllerTests#triggerException",
         "CrashControllerTests#triggerExceptionJson",
-        "CrashControllerTests#triggerExceptionHtml"
+        "CrashControllerTests#triggerExceptionHtml",
+        "VisitControllerTests#initNewVisitForm",
+        "VisitControllerTests#processNewVisitFormSuccess",
+        "VisitControllerTests#processNewVisitFormHasErrors"
       ],
-      "total_time": 0.588
+      "total_time": 0.612
     },
     {
       "tests": [
-        "PetValidatorTests#validateWithInvalidBirthDate",
-        "PetValidatorTests#validateWithInvalidPetName",
-        "PetValidatorTests#validateWithInvalidPetType",
-        "PetValidatorTests#validate",
-        "OwnerControllerTests#shouldNotValidateWhenFirstNameEmpty",
-        "PetRepositoryTests#serialization",
-        "PetRepositoryTests#shouldParse",
-        "PetRepositoryTests#shouldThrowParseException",
-        "SystemTests#testPrint",
-        "OwnerRepositoryTests#findAll",
-        "I18nTests#checkI18nPropertyFilesAreInSync",
-        "I18nTests#checkNonInternationalizedStrings",
         "OwnerControllerTests#initCreationForm",
         "OwnerControllerTests#processCreationFormSuccess",
         "OwnerControllerTests#processCreationFormHasErrors",
@@ -51,17 +37,31 @@
         "OwnerControllerTests#processUpdateOwnerFormWithIdMismatch",
         "OwnerControllerTests#ownerDetails",
         "OwnerControllerTests#ownerList",
+        "PetValidatorTests#validateWithInvalidBirthDate",
+        "PetValidatorTests#validateWithInvalidPetName",
+        "PetValidatorTests#validateWithInvalidPetType",
+        "PetValidatorTests#validate",
+        "OwnerControllerTests#shouldNotValidateWhenFirstNameEmpty",
+        "PetRepositoryTests#serialization",
+        "PetRepositoryTests#shouldParse",
+        "PetRepositoryTests#shouldThrowParseException",
+        "SystemTests#testPrint",
+        "OwnerRepositoryTests#findAll",
+        "I18nTests#checkI18nPropertyFilesAreInSync",
+        "I18nTests#checkNonInternationalizedStrings",
+        "PetControllerTests#initUpdateForm",
+        "PetControllerTests#processUpdateFormSuccess",
+        "PetControllerTests#processUpdateFormWithInvalidBirthDate",
+        "PetControllerTests#processUpdateFormWithBlankName",
+        "PetControllerTests#processCreationFormWithDuplicateName",
+        "PetControllerTests#processCreationFormWithMissingPetType",
+        "PetControllerTests#processCreationFormWithInvalidBirthDate",
+        "PetControllerTests#processCreationFormWithBlankName",
         "PetRepositoryTests#shouldFindAllPetTypes",
         "PetRepositoryTests#shouldInsertPetIntoDatabaseAndGenerateId",
-        "PetRepositoryTests#shouldUpdatePetName",
-        "OwnerRepositoryTests#shouldFindOwnersByLastName",
-        "OwnerRepositoryTests#shouldFindSingleOwnerWithPet",
-        "OwnerRepositoryTests#shouldInsertOwner",
-        "OwnerRepositoryTests#shouldUpdateOwner",
-        "VisitRepositoryTests#shouldAddNewVisitForPet",
-        "VisitRepositoryTests#shouldFindVisitsByPetId"
+        "PetRepositoryTests#shouldUpdatePetName"
       ],
-      "total_time": 0.619
+      "total_time": 0.595
     }
   ]
 }
