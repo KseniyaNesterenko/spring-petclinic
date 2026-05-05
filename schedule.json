@@ -1,15 +1,72 @@
 {
   "containers" : [ {
-    "tests" : [ "showVetListHtml", "initNewVisitForm", "processFindFormByLastName", "checkI18nPropertyFilesAreInSync", "validateWithInvalidPetName" ],
-    "total_time" : 0.28800000000000003
+    "tests" : [
+      "VetControllerTests#showVetListHtml",
+      "OwnerControllerTests#processUpdateFormSuccess",
+      "PetRepositoryTests#shouldFindVisitsByPetId",
+      "OwnerControllerTests#processUpdateOwnerFormWithIdMismatch",
+      "PetRepositoryTests#shouldUpdatePetName",
+      "OwnerRepositoryTests#shouldUpdateOwner",
+      "PetValidatorTests#validateWithInvalidPetType"
+    ],
+    "total_time" : 0.302
   }, {
-    "tests" : [ "showResourcesVetList", "triggerExceptionHtml", "findAll", "triggerExceptionJson", "initCreationForm", "processFindFormNoOwnersFound", "processUpdateFormWithBlankName", "processCreationFormWithBlankName", "processUpdateFormSuccess", "processUpdateOwnerFormSuccess", "shouldFindVisitsByPetId", "processCreationFormSuccess", "processNewVisitFormSuccess", "shouldFindAllPetTypes", "validateWithInvalidPetType" ],
-    "total_time" : 0.28850000000000003
+    "tests" : [
+      "VetControllerTests#showResourcesVetList",
+      "OwnerRepositoryTests#findAll",
+      "CrashControllerTests#triggerExceptionHtml",
+      "CrashControllerTests#triggerExceptionJson",
+      "OwnerControllerTests#initCreationForm",
+      "OwnerControllerTests#processFindFormNoOwnersFound",
+      "OwnerControllerTests#processUpdateFormWithBlankName",
+      "OwnerControllerTests#processCreationFormWithBlankName",
+      "OwnerControllerTests#shouldNotValidateWhenFirstNameEmpty",
+      "OwnerRepositoryTests#shouldInsertOwner",
+      "OwnerControllerTests#processCreationFormSuccess",
+      "VisitControllerTests#processNewVisitFormSuccess",
+      "PetRepositoryTests#shouldFindAllPetTypes",
+      "PetValidatorTests#validateWithInvalidBirthDate",
+      "PetRepositoryTests#shouldParse",
+      "SystemTests#testPrint"
+    ],
+    "total_time" : 0.301
   }, {
-    "tests" : [ "ownerList", "ownerDetails", "serialization", "processNewVisitFormHasErrors", "shouldFindVets", "checkNonInternationalizedStrings", "processUpdateFormWithInvalidBirthDate", "shouldInsertPetIntoDatabaseAndGenerateId", "initUpdateForm", "processCreationFormWithInvalidBirthDate", "processCreationFormHasErrors", "shouldInsertOwner", "shouldUpdatePetName", "triggerException", "shouldFindSingleOwnerWithPet", "validateWithInvalidBirthDate", "shouldParse", "testPrint" ],
-    "total_time" : 0.28770000000000007
+    "tests" : [
+      "OwnerControllerTests#ownerDetails",
+      "OwnerControllerTests#showOwner",
+      "PetRepositoryTests#serialization",
+      "VisitControllerTests#processNewVisitFormHasErrors",
+      "OwnerRepositoryTests#shouldAddNewVisitForPet",
+      "OwnerControllerTests#processFindFormSuccess",
+      "PetValidatorTests#validate",
+      "PetRepositoryTests#shouldInsertPetIntoDatabaseAndGenerateId",
+      "OwnerControllerTests#initUpdateForm",
+      "OwnerControllerTests#processCreationFormWithInvalidBirthDate",
+      "OwnerControllerTests#processCreationFormHasErrors",
+      "VisitControllerTests#initNewVisitForm",
+      "PetRepositoryTests#shouldThrowParseException",
+      "I18nTests#checkI18nPropertyFilesAreInSync",
+      "PetValidatorTests#validateWithInvalidPetName"
+    ],
+    "total_time" : 0.301
   }, {
-    "tests" : [ "processUpdateOwnerFormUnchangedSuccess", "showOwner", "shouldFindOwnersByLastName", "processUpdateOwnerFormHasErrors", "shouldAddNewVisitForPet", "processFindFormSuccess", "validate", "processCreationFormWithMissingPetType", "processCreationFormWithDuplicateName", "initUpdateOwnerForm", "shouldNotValidateWhenFirstNameEmpty", "initFindForm", "processUpdateOwnerFormWithIdMismatch", "shouldThrowParseException", "shouldUpdateOwner" ],
-    "total_time" : 0.28800000000000003
+    "tests" : [
+      "OwnerControllerTests#ownerList",
+      "OwnerControllerTests#processUpdateOwnerFormUnchangedSuccess",
+      "OwnerRepositoryTests#shouldFindOwnersByLastName",
+      "OwnerControllerTests#processUpdateOwnerFormHasErrors",
+      "VetRepositoryTests#shouldFindVets",
+      "I18nTests#checkNonInternationalizedStrings",
+      "OwnerControllerTests#processUpdateFormWithInvalidBirthDate",
+      "OwnerControllerTests#processCreationFormWithMissingPetType",
+      "OwnerControllerTests#processCreationFormWithDuplicateName",
+      "OwnerControllerTests#initUpdateOwnerForm",
+      "OwnerControllerTests#processUpdateOwnerFormSuccess",
+      "OwnerControllerTests#initFindForm",
+      "OwnerControllerTests#processFindFormByLastName",
+      "CrashControllerTests#triggerException",
+      "OwnerRepositoryTests#shouldFindSingleOwnerWithPet"
+    ],
+    "total_time" : 0.302
   } ]
 }
